@@ -258,7 +258,32 @@
 				<footer id="footer" class="container">
 					<div class="row">
 						<div class="3u">
-						
+							<!-- map -->
+								<section>
+								<h2 style="text-align:right"> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaReach us</h2>
+ 								<div id="Map" style="height:350px;width:350px"></div>
+								<script src="OpenLayers.js"></script>
+							<script>
+  							  	var lat            = 30.640947;
+    								var lon            = 76.399316;
+    								var zoom           = 14;
+
+    								var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
+    								var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+   							        var position       = new OpenLayers.LonLat(lon, lat).transform( fromProjection, toProjection);
+
+    								map = new OpenLayers.Map("Map");
+    								var mapnik         = new OpenLayers.Layer.OSM();
+    								map.addLayer(mapnik);
+
+    								var markers = new OpenLayers.Layer.Markers( "Markers" );
+   								map.addLayer(markers);
+    								markers.addMarker(new OpenLayers.Marker(position));
+
+    								map.setCenter(position, zoom);
+							</script>
+
+								</section>
 							<!-- Links -->
 							<!--	<section>
 									<h2>Filler Links</h2>
@@ -279,7 +304,7 @@
 						
 						</div>
 						<div class="3u">
-						
+							
 							<!-- Links -->
 							<!--	<section>
 									<h2>More Filler</h2>
@@ -304,7 +329,7 @@
 						
 						</div>
 						<div class="6u">
-						
+													
 							<!-- About -->
 							<!--	<section>
 									<h2><strong>ZeroFour</strong> by HTML5 UP</h2>
