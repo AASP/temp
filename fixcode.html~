@@ -188,8 +188,7 @@
 													</div>
 												</article>
 
-											
-<!-- Excerpt -->
+											<!-- Excerpt -->
 												<article class="box-excerpt">
 													<a href="codewrite.html" class="image image-left"><img src="images/pic04.png" alt="" /></a>
 													<div>
@@ -203,16 +202,22 @@
 
 											<!-- Excerpt -->
 												<article class="box-excerpt">
-													<a href="fixcode.html" class="image image-left"><img src="images/pic06.jpg" alt="" /></a>
+													<a href="passionate.html" class="image image-left"><img src="images/pic05.jpg" alt="" /></a>
 													<div>
 														<header>
-															<span class="date"><!--December 12, 2012--></span>
-															<h3><a href="fixcode.html">fix other people’s designs and front-end code on production</a></h3>
+															<span class="date"><!--December 15, 2012--></span>
+															<h3><a href="passionate.html">passionate about solving problems for our customers</a></h3>
 														</header>
-														<p>We are computer engineer, sure, but we'r just  mechanics. We go in and  fix things.</p>
+														<p>We can not solve our problems with the same level of thinking that created them</p>
 													</div>
 												</article>
 
+											<!-- Excerpt -->
+												<article class="box-excerpt">
+													<a href="fixcode.html" class="image image-left"><img src="images/pic06.jpg" alt="" /></a>
+													<div>
+													
+												</article>
 
 										</section>
 								</div>
