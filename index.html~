@@ -44,18 +44,11 @@
 											<nav id="nav">
 												<ul>
 													<li class="current_page_item"><a href="index.html">Home</a></li>
-<<<<<<< HEAD
 													<li><a href="#main-wrapper">About</a></li>
 													<li>
 														<!--<span>Dropdown</span>
 														<ul>
 															<li><a href="#main-wrapper">about<a></li>
-=======
-													<li>
-														<span>Dropdown</span>
-														<ul>
-															<li><a href="#">Lorem ipsum dolor</a></li>
->>>>>>> d4caf42c3451c8f0a00f8dbfbf0f852bd4c8e8f2
 															<li><a href="#">Magna phasellus</a></li>
 															<li>
 																<span>Phasellus consequat</span>
@@ -68,15 +61,10 @@
 															</li>
 															<li><a href="#">Veroeros feugiat</a></li>
 														</ul>
-<<<<<<< HEAD
 													</li>-->
 													<li><a href="#main-wrapper1">Service</a></li>
-=======
-													</li>
-													<li><a href="left-sidebar.html">Left Sidebar</a></li>
->>>>>>> d4caf42c3451c8f0a00f8dbfbf0f852bd4c8e8f2
-													<li><a href="right-sidebar.html">Right Sidebar</a></li>
-													<li><a href="no-sidebar.html">No Sidebar</a></li>
+													<li><a href="#blog">Blog</a></li>
+													<li><a href="#footer-wrapper">contact us</a></li>
 												</ul>
 											</nav>
 									
@@ -142,29 +130,17 @@
 								</div>
 								<div class="row">
 									<div class="12u">
-<<<<<<< HEAD
 									<!--	<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper 
 										bibendum ipsum, et tristique augue fringilla eu. Vivamus id risus vel dolor auctor euismod 
 										quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus mattis lectus sit 
 										amet pulvinar. Nam nec turpis.</p>
 							-->		</div>
-=======
-										<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper 
-										bibendum ipsum, et tristique augue fringilla eu. Vivamus id risus vel dolor auctor euismod 
-										quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus mattis lectus sit 
-										amet pulvinar. Nam nec turpis.</p>
-									</div>
->>>>>>> d4caf42c3451c8f0a00f8dbfbf0f852bd4c8e8f2
 								</div>
 							</section>
 
 					</div>
 				</div>
-<<<<<<< HEAD
-				<div id="main-wrapper1">
-=======
->>>>>>> d4caf42c3451c8f0a00f8dbfbf0f852bd4c8e8f2
-				<div class="main-wrapper-style2">
+				<div class="main-wrapper-style2" id="main-wrapper1">
 					<div class="inner">
 				
 						<!-- Feature 2 -->
@@ -206,16 +182,16 @@
 								<div class="8u">
 
 									<!-- Article list -->
-										<section class="box-article-list">
+										<section class="box-article-list" id="blog">
 											<h2 class="fa fa-file-text-o">From the blog</h2>
 											
 											<!-- Excerpt -->
 												<article class="box-excerpt">
-													<a href="#" class="image image-left"><img src="images/pic04.png" alt="" /></a>
+													<a href="codewrite.html" class="image image-left"><img src="images/pic04.png" alt="" /></a>
 													<div>
 														<header>
 															<span class="date"><!--December 20, 2012--></span>
-															<h3><a href="#"> Code. Write good copy.</a></h3>
+															<h3><a href="codewrite.html"> Code. Write good copy.</a></h3>
 														</header>
 														<p>A code that doesn't affect the way you think about programming is not worth knowing.</p>
 													</div>
