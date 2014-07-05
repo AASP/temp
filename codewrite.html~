@@ -89,13 +89,19 @@
 									
 											<section>
 												<header class="major">
-													<h2>Subheading</h2>
+													<h2>rules Developers Should Follow</h2>
+													<!--<span class="byline">Developers Should Follow</span>-->
 												</header>
-												<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. 
-												Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. 
-												Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi 
-												consequat etiam.</p>
-												<footer>
+												<h1>Keep Class Size Small</h1>
+												<span class="date">july 1, 2014</span>
+												<p style="text-align:justify">“The single responsibility principle states that every object should have a single responsibility, and that responsibility should be entirely encapsulated by the class. All its services should be narrowly aligned with that responsibility.”</p>
+												<h1>Avoid Obsolete Comments</h1>
+												<p style="text-align:justify">Let us start with Obsolete Comments. According to Robert C. Martin:
+
+"A comment that has gotten old, irrelevant, and incorrect is obsolete.  Comments get old quickly.  It is best not to write a comment that will become obsolete.  If you find an obsolete comment, it is best to update it or get rid of it as quickly as possible.  Obsolete comments tend to migrate away from the code they once described.  They become floating islands of irrelevance and misdirection in the code."</p>
+												<h1>Avoid Unnecessary Regions in Class</h1>
+												<p style="text-align:justify">Regions are a feature of VS that allow you to surround blocks of code. It could be a single or multiple methods. The region exists because it is easier to navigate around the large file. The regions are used to hide ugly code or class that have exploded in size . If a class does too many things it also violates the Single Responsibility Principle. So next time whenever you will think for adding a new region to your file take step back and ask that is it possible to separate your region into a separate class.</p>
+												<!--<footer>
 													<a href="#" class="button fa fa-info-circle">Find out more</a>
 												</footer>
 											</section>
@@ -118,7 +124,7 @@
 												<footer>
 													<a href="#" class="button fa fa-arrow-circle-o-right">Do Something</a>
 												</footer>
-											</section>
+											</section>-->
 								
 									</div>
 								</div>
@@ -129,33 +135,21 @@
 									
 											<article>
 												<header class="major">
-													<h2>Left Sidebar</h2>
-													<span class="byline">Which means the sidebar is on the left</span>
+													<h2>code write good copy</h2>
+													<span class="date">jasvir s sandhu</span>
+													<!--<span class="byline">Which means the sidebar is on the left</span>-->
 												</header>
+												<span class="date">july 5, 2014</span>
+												<!--<span class="image image-full"><img src="images/pic08.jpg" alt="" /></span>-->
 												
+												<p style="text-align:justify">Developers always love to fight about coding standards. But it is very vital to follow coding standards to achieve consistency throughout the project or code. All should be of the same mind that conventions are very influential.I will show some good practices that I have learned during my professional years, those are lower level but very important for all levels.</p>
+												
+												<h3>What is better Code?</h3>
+												<p style="text-align:justify">Write code for People First, Computers Second. Readable code doesn't take any longer to write than confusing code does, at least not in the long run. It’s easier to be sure your code works, if you can easily read what you wrote. That should be a sufficient reason to write readable code. But code is also read during reviews. Code is read when you or someone else fixes an error. Code is read when the code is modified. Code is read when someone tries to use part of your code in a similar project or different project but similar feature or part of a feature. </p>
 												<span class="image image-full"><img src="images/pic08.jpg" alt="" /></span>
-												
-												<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. 
-												Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. 
-												Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi 
-												consequat etiam lorem ipsum dolor sit amet nullam.</p>
-												
-												<h3>More intriguing information</h3>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus 
-												justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis, 
-												ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet 
-												vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor. 
-												Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis 
-												rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien. 
-												Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi. 
-												Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.</p>
+												<p>“ What if you just writing code for yourself ? Why should you make it readable ? ”
 
-												<p>Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim 
-												quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu. 
-												Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna, 
-												fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium. 
-												Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu. 
-												Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.</p>
+Ok, the major reason behind writing readable is , a week or two from now you’re going to be working on another project. What will happen when any other HUMAN needs to fix an error on that project? I can guarantee you that you will also lost within your own horror code.</p>
 											</article>
 								
 									</div>
@@ -219,25 +213,23 @@
 								</div>
 								<div class="4u">
 								
-									<!-- Spotlight -->
-										<section class="box-spotlight">
-											<h2 class="fa fa-file-text-o">Spotlight</h2>
-											<article>
-												<a href="#" class="image image-full"><img src="images/pic07.jpg" alt=""></a>
-												<header>
-													<h3><a href="#">Why staplers matter</a></h3>
-													<span class="byline">They hold things together</span>
+									<section class="technology">
+											<h2 style="text-align:center">TECHNOLOGY</h2>
+										<article>
+											<header>
+							                                        <h3 style="text-align:center">Client side</h3>
 												</header>
-												<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper mod 
-												quisturpis nisi consequat ornare in, hendrerit in lectus semper mod quis eget mi quat etiam 
-												lorem. Phasellus quam turpis, feugiat sed et lorem ipsum dolor consequat dolor feugiat sed
-												et tempus consequat etiam.</p>
-												<p>Lorem ipsum dolor quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper 
-												mod quisturpis nisi consequat etiam lorem sed amet quam turpis.</p>
-												<footer>
-													<a href="#" class="button alt fa fa-file-o">Continue Reading</a>
-												</footer>
-											</article>
+							                                        <p style="text-align:center">CSS3<br>HTML<br>HTML5<br>Java script</p>
+											<header>
+							                                	<h3 style="text-align:center">DB side</h3>
+												</header>
+							                                        <p style="text-align:center">Mysql<br>Oracle<br>SQLite<br>MS SQL Server<p>
+											<header>
+												<h3 style="text-align:center">Server side</h3>
+												</header>
+												<p style="text-align:center">PHP<br>Python<br>Cake php<br>Linux/Apache<br>SSL/Secure Servers</p>
+			
+										</article>
 										</section>
 								
 								</div>
