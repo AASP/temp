@@ -246,28 +246,22 @@
 											</article>
 										</section>-->
 										<section class="technology">
-											<h2 style="text-align:center">TECHNOLOGY</h2>
+											<!--<h2 style="text-align:center">TECHNOLOGY</h2>-->
+											<a href="#" class="image image-full"><img src="images/pic07.jpg" alt=""></a>
 										<article>
 											<header>
-											
 							                                        <h3 style="text-align:center">Client side</h3>
 												</header>
 							                                        <p style="text-align:center">CSS3<br>HTML<br>HTML5<br>Java script</p>
-						                                        
 											<header>
-						                                        
 							                                	<h3 style="text-align:center">DB side</h3>
 												</header>
-							                                <p style="text-align:center">Mysql<br>Oracle<br>SQLite<br>MS SQL Server<p>
-											
+							                                        <p style="text-align:center">Mysql<br>Oracle<br>SQLite<br>MS SQL Server<p>
 											<header>
-											
 												<h3 style="text-align:center">Server side</h3>
 												</header>
 												<p style="text-align:center">PHP<br>Python<br>Cake php<br>Linux/Apache<br>SSL/Secure Servers</p>
 			
-						
-				
 										</article>
 										</section>
 								</div>

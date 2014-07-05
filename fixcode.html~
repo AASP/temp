@@ -89,13 +89,25 @@
 									
 											<section>
 												<header class="major">
-													<h2>Subheading</h2>
+													<h2>code readability</h2>
 												</header>
-												<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. 
-												Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. 
-												Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi 
-												consequat etiam.</p>
-												<footer>
+												<p style="text-align:justify">We prefer readability over file-size savings when it comes to maintaining existing files. Plenty of whitespace is encouraged, along with ASCII art, where appropriate. There is no need for any developer to purposefully compress HTML or CSS, nor obfuscate JavaScript.<br>
+
+We will use server-side or build processes to automatically minify and gzip all static client-side files, such as CSS and JavaScript
+</p>
+												<h2>Markup</h2>
+												<p style="text-align:justify">The first component of any web page is the tag-based markup language of HTML. The Hyper Text Markup Language (HTML) has a sordid history but has come into its own in the last few years. After a lengthy experimentation with the XML-based XHTML variant the industry has accepted that HTML is the future of the web.<br>
+
+Markup defines the structure and outline of a document and offers a structured content. Markup is not intended to define the look and feel of the content on the page beyond rudimentary concepts such as headers, paragraphs, and lists. The presentation attributes of HTML have all been deprecated and style should be contained in style sheets.
+</p>
+											<h2>Architecture</h2>
+												<p style="text-align:justify">Demonstrates basic knowledge of object and component methodology and technology.<br> 
+Possesses basic knowledge of classes, components, objects, and interfaces<br> 
+Recognizes the fundamental differences between the various internet browsers<br> 
+Willing to work on both proprietary and open source platforms<br> 
+</p>	
+											</section>
+												<!--<footer>
 													<a href="#" class="button fa fa-info-circle">Find out more</a>
 												</footer>
 											</section>
@@ -118,7 +130,7 @@
 												<footer>
 													<a href="#" class="button fa fa-arrow-circle-o-right">Do Something</a>
 												</footer>
-											</section>
+											</section>-->
 								
 									</div>
 								</div>
@@ -129,33 +141,23 @@
 									
 											<article>
 												<header class="major">
-													<h2>Left Sidebar</h2>
-													<span class="byline">Which means the sidebar is on the left</span>
+													<h2>FIX OTHER PEOPLE’S DESIGNS AND FRONT-END CODE ON PRODUCTION</h2>
+													<span class="date">jagjit singh</span>
+													<!--<span class="byline">Which means the sidebar is on the left</span>-->
 												</header>
+												<span class="date">july 3, 2014</span>
+												<!--<span class="image image-full"><img src="images/pic08.jpg" alt="" /></span>-->
 												
-												<span class="image image-full"><img src="images/pic08.jpg" alt="" /></span>
-												
-												<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. 
-												Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. 
-												Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi 
-												consequat etiam lorem ipsum dolor sit amet nullam.</p>
-												
-												<h3>More intriguing information</h3>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus 
-												justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis, 
-												ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet 
-												vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor. 
-												Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis 
-												rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien. 
-												Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi. 
-												Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.</p>
+												<p style="text-align:justify">This blog contains guidelines for web applications built by the Creative Technology (front end engineering) practice of Isobar. It is to be readily available to anyone who wishes to check the iterative progress of our best practices.<br>
 
-												<p>Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim 
-												quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu. 
-												Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna, 
-												fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium. 
-												Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu. 
-												Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.</p>
+Primary motivation is two- fold: 1) code consistency and 2) best practices. By maintaining consistency in coding styles and conventions, we can ease the burden of legacy code maintenance, and mitigate risk of breakage in the future. By adhering to best practices, we ensure optimized page loading, performance and maintainable code.</p>
+												
+												<h3>Responsive Web Design</h3>
+												<p style="text-align:justify">Our externally-focused projects are Almost every new client these days wants a mobile version of their website. It’s practically essential after all: one design for the BlackBerry, another for the iPhone, the iPad, netbook, Kindle — and all screen resolutions must be compatible, too. In the next five years, we’ll likely need to design for a number of additional inventions. When will the madness stop? It won’t, of course<br>
+<span class="image image-full"><img src="images/pic10.jpg" alt="" /></span>
+Responsive Web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. The practice consists of a mix of flexible grids and layouts, images and an intelligent use of CSS media queries. As the user switches from their laptop to iPad, the website should automatically switch to accommodate for resolution, image size and scripting abilities. In other words, the website should have the technology to automatically respond to the user’s preferences. This would eliminate the need for a different design and development phase for each new gadget on the market.
+ </p>
+																							
 											</article>
 								
 									</div>
@@ -188,7 +190,8 @@
 													</div>
 												</article>
 
-											<!-- Excerpt -->
+											
+<!-- Excerpt -->
 												<article class="box-excerpt">
 													<a href="codewrite.html" class="image image-left"><img src="images/pic04.png" alt="" /></a>
 													<div>
@@ -201,7 +204,8 @@
 												</article>
 
 											<!-- Excerpt -->
-												<article class="box-excerpt">
+												
+													<article class="box-excerpt">
 													<a href="passionate.html" class="image image-left"><img src="images/pic05.jpg" alt="" /></a>
 													<div>
 														<header>
@@ -212,14 +216,13 @@
 													</div>
 												</article>
 
-											
 
 										</section>
 								</div>
 								<div class="4u">
 								
 									<section class="technology">
-											<h2 style="text-align:center">TECHNOLOGY</h2>
+											<a  class="image image-full"><img src="images/pic07.jpg" alt=""></a>
 										<article>
 											<header>
 							                                        <h3 style="text-align:center">Client side</h3>
@@ -236,6 +239,7 @@
 			
 										</article>
 										</section>
+								
 								</div>
 							</div>
 						</div>

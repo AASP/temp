@@ -96,10 +96,12 @@
 												<span class="date">july 1, 2014</span>
 												<p style="text-align:justify">“The single responsibility principle states that every object should have a single responsibility, and that responsibility should be entirely encapsulated by the class. All its services should be narrowly aligned with that responsibility.”</p>
 												<h1>Avoid Obsolete Comments</h1>
+												<span class="date">june 28, 2014</span>
 												<p style="text-align:justify">Let us start with Obsolete Comments. According to Robert C. Martin:
 
 "A comment that has gotten old, irrelevant, and incorrect is obsolete.  Comments get old quickly.  It is best not to write a comment that will become obsolete.  If you find an obsolete comment, it is best to update it or get rid of it as quickly as possible.  Obsolete comments tend to migrate away from the code they once described.  They become floating islands of irrelevance and misdirection in the code."</p>
 												<h1>Avoid Unnecessary Regions in Class</h1>
+												<span class="date">june 24, 2014</span>
 												<p style="text-align:justify">Regions are a feature of VS that allow you to surround blocks of code. It could be a single or multiple methods. The region exists because it is easier to navigate around the large file. The regions are used to hide ugly code or class that have exploded in size . If a class does too many things it also violates the Single Responsibility Principle. So next time whenever you will think for adding a new region to your file take step back and ask that is it possible to separate your region into a separate class.</p>
 												<!--<footer>
 													<a href="#" class="button fa fa-info-circle">Find out more</a>
@@ -214,7 +216,7 @@ Ok, the major reason behind writing readable is , a week or two from now you’r
 								<div class="4u">
 								
 									<section class="technology">
-											<h2 style="text-align:center">TECHNOLOGY</h2>
+											<a href="#" class="image image-full"><img src="images/pic07.jpg" alt=""></a>
 										<article>
 											<header>
 							                                        <h3 style="text-align:center">Client side</h3>
