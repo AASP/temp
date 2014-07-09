@@ -38,7 +38,7 @@
 									<div class="inner">
 									
 										<!-- Logo -->
-											<h1><a href="#" id="logo">AASP</a></h1>
+											<h1><a href="#" id="logo"><img src="images/colorfull.png"></a></h1>
 										
 										<!-- Nav -->
 											<nav id="nav">
@@ -216,7 +216,7 @@ Ok, the major reason behind writing readable is , a week or two from now you’r
 								<div class="4u">
 								
 									<section class="technology">
-											<a href="#" class="image image-full"><img src="images/pic07.jpg" alt=""></a>
+											<a  class="image image-full"><img src="images/pic07.jpg" alt=""></a>
 										<article>
 											<header>
 							                                        <h3 style="text-align:center">Client side</h3>

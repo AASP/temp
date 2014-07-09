@@ -38,7 +38,7 @@
 									<div class="inner">
 									
 										<!-- Logo -->
-											<h1><a href="#" id="logo">AASP</a></h1>
+											<h1><a href="#" id="logo"><img src="images/colorfull.png"></a></h1>
 										
 										<!-- Nav -->
 											<nav id="nav">
@@ -153,7 +153,7 @@ Willing to work on both proprietary and open source platforms<br>
 Primary motivation is two- fold: 1) code consistency and 2) best practices. By maintaining consistency in coding styles and conventions, we can ease the burden of legacy code maintenance, and mitigate risk of breakage in the future. By adhering to best practices, we ensure optimized page loading, performance and maintainable code.</p>
 												
 												<h3>Responsive Web Design</h3>
-												<p style="text-align:justify">Our externally-focused projects are Almost every new client these days wants a mobile version of their website. It’s practically essential after all: one design for the BlackBerry, another for the iPhone, the iPad, netbook, Kindle — and all screen resolutions must be compatible, too. In the next five years, we’ll likely need to design for a number of additional inventions. When will the madness stop? It won’t, of course<br>
+												<p style="text-align:justify">Our externally-focused projects are Almost every new client these days wants a mobile version of their website. It’s practically essential after all: one design for the BlackBerry, another for the iPhone, the iPad, netbook, Kindle — and all screen resolutions must be compatible
 <span class="image image-full"><img src="images/pic10.jpg" alt="" /></span>
 Responsive Web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. The practice consists of a mix of flexible grids and layouts, images and an intelligent use of CSS media queries. As the user switches from their laptop to iPad, the website should automatically switch to accommodate for resolution, image size and scripting abilities. In other words, the website should have the technology to automatically respond to the user’s preferences. This would eliminate the need for a different design and development phase for each new gadget on the market.
  </p>

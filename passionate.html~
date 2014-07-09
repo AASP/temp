@@ -38,7 +38,7 @@
 									<div class="inner">
 									
 										<!-- Logo -->
-											<h1><a href="#" id="logo">AASP</a></h1>
+											<h1><a href="#" id="logo"><img src="images/colorfull.png"></a></h1>
 										
 										<!-- Nav -->
 											<nav id="nav">
@@ -146,10 +146,10 @@ Willing to work on both proprietary and open source platforms<br>
 											<article>
 												<header class="major">
 													<h2>PASSIONATE ABOUT SOLVING PROBLEMS FOR OUR CUSTOMERS</h2>
-													<span class="date">jasvir s sandhu</span>
+													<span class="date">Satinderpal Singh</span>
 													<!--<span class="byline">Which means the sidebar is on the left</span>-->
 												</header>
-												<span class="date">july 5, 2014</span>
+												<span class="date">july 6, 2014</span>
 												<!--<span class="image image-full"><img src="images/pic08.jpg" alt="" /></span>-->
 												
 												<p style="text-align:justify">A love for solving problems.we are passionate about web development.its power to create meaningful change, particularly in the AASP 
